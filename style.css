@@ -1,5 +1,11 @@
+* {
+    color: pink;
+}
+
+
 h1 {
     color: red;
+    text-align: center;
 }
 
 button {
@@ -9,4 +15,8 @@ button {
 
 body {
     background-color: #C7FFED;
+}
+
+p {
+    text-align: start;
 }
