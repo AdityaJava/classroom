@@ -1,5 +1,5 @@
 * {
-    font-family: 'Times New Roman', Times, serif;
+    font-family: cursive;
 }
 
 #outer {
@@ -13,4 +13,6 @@
 #headone {
     text-align: center;
     text-transform: capitalize;
+    text-decoration: rgb(186, 13, 206) underline;
+    color: cadetblue;
 }
