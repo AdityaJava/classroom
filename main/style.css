@@ -1,0 +1,51 @@
+* {
+    color: pink;
+}
+
+
+h1 {
+    color: red;
+    text-align: center;
+    text-decoration: pink wavy overline;
+}
+
+button {
+    color: brown;
+    background-color: burlywood;
+}
+
+body {
+    background-color: #C7FFED;
+}
+
+p {
+    text-align: start;
+    color: black;
+}
+
+/*
+this will remove underline from link
+*/
+a {
+    text-decoration: none;
+}
+
+#head3 {
+    font-weight: normal;
+}
+
+#head4 {
+    font-weight: lighter;
+}
+
+#paraone {
+    font-family: arial;
+    font-size: 25px;
+    /*Spacing between lines*/
+    line-height: 35px;
+    text-transform: capitalize;
+}
+
+#paratwo {
+    line-height: 26px;
+}
