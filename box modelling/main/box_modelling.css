@@ -1,0 +1,25 @@
+* {
+    font-family: cursive;
+}
+
+div {
+    height: 100px;
+    width: 100px;
+    background-color: pink;
+    /*Shorthand for 3 props of border*/
+    border: 10px solid blue;
+    padding: 25px;
+    margin: 10px;
+}
+
+#topheading {
+    text-align: center;
+    text-decoration: pink underline;
+    color: red;
+    height: 80px;
+    background-color: black;
+    border-color: darksalmon;
+    border-width: 20px;
+    border-style: solid;
+    border-radius: 10px;
+}
