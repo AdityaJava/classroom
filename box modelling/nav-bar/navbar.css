@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+#navbar {
+    height: 60px;
+    background-color: rgb(9, 9, 108);
+}
+
+button {
+    background-color: rgb(222, 189, 27);
+    color: black;
+}
+
+#logo {
+    color: rgb(222, 189, 27);
+    font-size: 25px;
+}
+
+a {
+    margin-right: 200px;
+    text-decoration: none;
+}
+
+#inputsearch {
+    margin-left: 200px;
+}
