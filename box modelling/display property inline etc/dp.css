@@ -1,0 +1,9 @@
+#inlinediv {
+    display: inline;
+    background-color: pink;
+}
+
+#blockdiv {
+    display: block;
+    background-color: aqua;
+}
