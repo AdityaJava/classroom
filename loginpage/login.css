@@ -1,17 +1,39 @@
-#container {
+#navbar {
+    background-color: #264653;
+    color: white;
     text-align: center;
-    height: 150px;
-    width: 50px;
+    text-decoration: none;
+    margin-bottom: 10px;
+    height: 50px;
+
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
 }
 
-#loginform {
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+    background-color: #2a9d8f;
+}
+
+
+.innerdiv {
     height: 300px;
-    width: 150px;
-    border: 2px solid black;
-    border-radius: 10%;
+    width: 200px;
+    background-color: white;
+    border-radius: 5%;
 }
 
 input {
-    width: 100px;
+    margin: 20px;
     border-radius: 10%;
+}
+
+a {
+    color: white;
+    margin: 30px;
+
 }
