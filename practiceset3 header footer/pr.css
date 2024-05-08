@@ -1,0 +1,46 @@
+#navbar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    align-items: center;
+    background-color: #780000;
+    color: white;
+    height: 100px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    margin: 20px;
+}
+
+#logo {
+    color: #9cc10a;
+}
+
+#content {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    background-color: #e9c46a;
+    height: 700px;
+    margin-top: 10px;
+}
+
+.innerdiv {
+    border: 2px solid black;
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+}
+
+#footer {
+    background-color: #fdf0d5;
+    height: 100px;
+}
+
+#footerh1 {
+    color: #780000;
+    text-align: center;
+}

@@ -1,0 +1,23 @@
+#box1 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    background-color: green;
+    font-size: 40px;
+    color: white;
+    height: 6em;
+    width: 3em;
+}
+
+
+#box2 {
+    height: 50%;
+    width: 30%;
+    background-color: yellow;
+    margin-left: 10%;
+    margin-top: 10%;
+    color: black;
+    font-size: 0.5em;
+    width: 3em;
+}
