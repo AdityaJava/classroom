@@ -1,0 +1,16 @@
+#box1 {
+    height: 200px;
+    width: 200px;
+    background-color: black;
+    right: 0;
+    top: 100px;
+    position: fixed;
+    background-image: url(../Radha_krishna.jpeg);
+    background-size: cover;
+}
+
+body {
+    background-image: url(../jagannath.jpg);
+    background-size: cover;
+    color: white;
+}

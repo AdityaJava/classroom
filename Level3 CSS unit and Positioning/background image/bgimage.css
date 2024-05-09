@@ -1,1 +1,19 @@
-#div1 {}
+div {
+    margin: 10px;
+
+}
+
+#box1 {
+    background-image: url("../../jagannath.jpg");
+    background-size: cover;
+    height: 100px;
+    width: 100px;
+}
+
+#box2 {
+    background-image: url("../../jagannath.jpg");
+    background-size: contain;
+    height: 200px;
+    width: 200px;
+    border: 2px solid black;
+}

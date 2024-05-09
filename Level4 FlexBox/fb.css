@@ -1,0 +1,39 @@
+body {
+    text-align: center;
+}
+
+h1 {
+    font-size: 60px;
+}
+
+div {
+    display: inline-block;
+    border: 2px solid black;
+    height: 100px;
+    width: 100px;
+}
+
+#container {
+    height: 500px;
+    width: 500px;
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+}
+
+#box1 {
+    background-color: aqua;
+}
+
+
+#box2 {
+    background-color: brown;
+}
+
+#box3 {
+    background-color: red;
+}
+
+#box4 {
+    background-color: yellow;
+}
