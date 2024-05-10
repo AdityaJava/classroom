@@ -10,15 +10,17 @@ div {
     display: inline-block;
     border: 2px solid black;
     height: 100px;
-    width: 100px;
+    width: 150px;
 }
 
 #container {
-    height: 500px;
-    width: 500px;
+    height: 600px;
+    width: 600px;
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
-    background-color: black;
+    justify-content: space-around;
+    align-items: center;
 }
 
 #box1 {
@@ -36,4 +38,9 @@ div {
 
 #box4 {
     background-color: yellow;
+}
+
+#box5 {
+    background-color: blueviolet;
+    align-self: flex-end;
 }
