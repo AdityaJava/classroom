@@ -1,0 +1,31 @@
+#container {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#content {
+    height: 100px;
+    width: 100px;
+    background-color: pink;
+}
+
+@keyframes colorAnimate {
+    from {
+        background-color: pink;
+    }
+
+    to {
+        background-color: red;
+    }
+}
+
+#content:hover {
+    animation-name: colorAnimate;
+    animation-duration: 3s;
+    animation-timing-function: steps(5);
+    animation-iteration-count: 100;
+    animation-duration: 2s;
+}
