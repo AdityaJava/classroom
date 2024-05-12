@@ -1,0 +1,32 @@
+#container {
+    height: 100vh;
+    width: 100vw;
+}
+
+#content {
+    height: 100px;
+    width: 100px;
+    background-color: pink;
+    position: relative;
+    top: 400px;
+    animation-name: colorAnimate;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 100;
+    animation-duration: 2s;
+}
+
+@keyframes colorAnimate {
+    from {
+        background-color: pink;
+        left: 0px;
+    }
+
+    to {
+        background-color: red;
+        left: 500px;
+        color: white;
+    }
+}
+
+#content:hover {}
